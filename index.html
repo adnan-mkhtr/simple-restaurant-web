@@ -28,24 +28,27 @@
         <div id="nav-menu" class="nav__menu">
           <ul class="nav__list">
             <li class="nav__item">
-              <a href="" id="#home" class="nav__link">Home</a>
+              <a href="#home" id="" class="nav__link">Home</a>
             </li>
             <li class="nav__item">
-              <a href="" id="#features" class="nav__link">Features</a>
+              <a href="#features" id="" class="nav__link">Features</a>
             </li>
             <li class="nav__item">
-              <a href="" id="about-us" class="nav__link">About Us</a>
+              <a href="#about-us" id="" class="nav__link">About Us</a>
             </li>
             <li class="nav__item">
-              <a href="" id="menu" class="nav__link">Menu</a>
+              <a href="#menu" id="" class="nav__link">Menu</a>
             </li>
             <li class="nav__item">
-              <a href="" id="blog" class="nav__link">Blogs</a>
+              <a href="#blog" id="" class="nav__link">Blogs</a>
             </li>
           </ul>
         </div>
 
         <div class="nav__buttons">
+          <div class="nav__icon shop__icon">
+            <i class="ri-user-line"></i>
+          </div>
           <div class="nav__icon shop__icon">
             <i class="ri-shopping-bag-line"></i>
           </div>
@@ -60,23 +63,95 @@
     </header>
 
     <!-- Home -->
-    <main>
-      <section class="home" id="home">
-        <div class="d-grid home__wrapper container">
-          <div class="home__content">
-            <h1 class="home__title">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            </h1>
-            <p class="home__description">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut
-              perferendis minus sint, ipsa amet nobis nemo totam eum quod.
-            </p>
-            <a href="" class="btn btn-primary"> Explore </a>
-          </div>
-          <img src="assets/img/home.png" alt="" class="img_home" />
+    <main></main>
+    <section class="home" id="home">
+      <div class="d-grid home__wrapper container">
+        <div class="home__content">
+          <h1 class="home__title">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          </h1>
+          <p class="home__description">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut
+            perferendis minus sint, ipsa amet nobis nemo totam eum quod.
+          </p>
+          <a href="" class="btn btn-primary"> Explore </a>
         </div>
-      </section>
-    </main>
+        <img src="assets/img/home.png" alt="" class="img_home" />
+      </div>
+    </section>
+
+    <!-- Features -->
+    <section id="features" class="section feature">
+      <div class="section__header">
+        <span class="section__subtitle">Features</span>
+        <h2 class="section__title">Why Choose Us?</h2>
+      </div>
+      <div class="d-grid feature__wrapper container">
+        <div class="feature__card">
+          <div class="feature__icon">
+            <i class="ri-file-list-3-line"></i>
+          </div>
+          <h3 class="feature__title">Menu</h3>
+          <p class="feature__description">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+          </p>
+        </div>
+        <div class="feature__card">
+          <div class="feature__icon">
+            <i class="ri-takeaway-line"></i>
+          </div>
+          <h3 class="feature__title">Fast Delivery</h3>
+          <p class="feature__description">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+          </p>
+        </div>
+        <div class="feature__card">
+          <div class="feature__icon">
+            <i class="ri-medal-line"></i>
+          </div>
+          <h3 class="feature__title">High Quality</h3>
+          <p class="feature__description">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- About us -->
+    <section class="section about" id="about-us">
+      <div class="d-grid about__wrapper container">
+        <img src="assets/img/about.jpg" alt="" class="img_about" />
+        <div class="about__content">
+          <span class="about__subtitle">Welcome to BrothersCafe</span>
+          <h2 class="about__title">We Cook Tradition and Family Recipes</h2>
+          <p class="home__description">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut
+            perferendis minus sint, ipsa amet nobis nemo totam eum quod.
+            <br /><br />
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam
+            adipisci minus consequuntur nobis harum? Odit illo optio qui quas
+            amet deleniti voluptatem, laboriosam doloribus fugit dolorem libero
+            dolores sunt nemo?
+          </p>
+          <a href="" class="btn btn-primary"> Our Story </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Menu -->
+    <section id="menu" class="section menu">
+      <div class="section__header">
+        <span class="section__subtitle">Our Menu</span>
+        <h2 class="section__title">Todays Special Menu</h2>
+      </div>
+      <div class="menu__filter">
+        <span class="menu__item">Breakfast</span>
+        <span class="menu__item">Lunch</span>
+        <span class="menu__item">Dinner</span>
+        <span class="menu__item">Dessert</span>
+      </div>
+    </section>
+
     <script src="assets/js/mixitup.min.js"></script>
     <script src="assets/js/scrollreveal.min.js"></script>
     <script src="assets/js/script.js"></script>
