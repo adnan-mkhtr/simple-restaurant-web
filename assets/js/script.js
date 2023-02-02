@@ -7,3 +7,24 @@ navToggle.addEventListener("click", () =>{
 // document.querySelector("#nav-toggle").onclick = () =>{
 //     navbar.classList.toggle("active")
 // }
+
+let mixMenu = mixitup(".menu__wrapper", {
+    load: {
+        filter: ".breakfast"
+    },
+    selectors: {
+        target: ".menu__card"
+    },
+    animation: {
+        duration: 800,
+    },
+});
+
+const menuItems = document.querySelectorAll(".menu__item");
+
+function activeMenuItem(){
+    menuItems.forEach((item) => item.classList.remove("active"));
+    this.classList.add("active");
+}
+
+menuItems.forEach((item) => item.addEventListener("click", activeMenuItem))

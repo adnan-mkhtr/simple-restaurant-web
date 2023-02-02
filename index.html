@@ -40,6 +40,9 @@
               <a href="#menu" id="" class="nav__link">Menu</a>
             </li>
             <li class="nav__item">
+              <a href="#review" id="" class="nav__link">Review</a>
+            </li>
+            <li class="nav__item">
               <a href="#blog" id="" class="nav__link">Blogs</a>
             </li>
           </ul>
@@ -145,10 +148,339 @@
         <h2 class="section__title">Todays Special Menu</h2>
       </div>
       <div class="menu__filter">
-        <span class="menu__item">Breakfast</span>
-        <span class="menu__item">Lunch</span>
-        <span class="menu__item">Dinner</span>
-        <span class="menu__item">Dessert</span>
+        <span class="menu__item active" data-filter=".breakfast"
+          >Breakfast</span
+        >
+        <span class="menu__item" data-filter=".lunch">Lunch</span>
+        <span class="menu__item" data-filter=".dinner">Dinner</span>
+        <span class="menu__item" data-filter=".dessert">Dessert</span>
+      </div>
+
+      <div class="d-grid menu__wrapper container">
+        <!-- Breakfast -->
+        <div class="menu__card breakfast">
+          <div class="menu__img-wrapper">
+            <img src="assets/img/breakfast1.jpg" alt="" class="img__menu" />
+          </div>
+          <div class="menu__card-body">
+            <h3 class="menu__title">Banana Sandwich</h3>
+            <div class="rating">
+              <span class="rating__star">
+                <i class="ri-star-fill"></i>
+              </span>
+              <span class="rating__star">
+                <i class="ri-star-fill"></i>
+              </span>
+              <span class="rating__star">
+                <i class="ri-star-fill"></i>
+              </span>
+              <span class="rating__star">
+                <i class="ri-star-fill"></i>
+              </span>
+              <span class="rating__star">
+                <i class="ri-star-half-fill"></i>
+              </span>
+            </div>
+            <span class="menu__price">Rp. ....</span>
+          </div>
+        </div>
+        <div class="menu__card breakfast">
+          <div class="menu__img-wrapper">
+            <img src="assets/img/breakfast2.jpg" alt="" class="img__menu" />
+          </div>
+          <div class="menu__card-body">
+            <h3 class="menu__title">Chicken Burger</h3>
+            <div class="rating">
+              <span class="rating__star">
+                <i class="ri-star-fill"></i>
+              </span>
+              <span class="rating__star">
+                <i class="ri-star-fill"></i>
+              </span>
+              <span class="rating__star">
+                <i class="ri-star-fill"></i>
+              </span>
+              <span class="rating__star">
+                <i class="ri-star-fill"></i>
+              </span>
+              <span class="rating__star">
+                <i class="ri-star-fill"></i>
+              </span>
+            </div>
+            <span class="menu__price">Rp. ....</span>
+          </div>
+        </div>
+        <div class="menu__card breakfast">
+          <div class="menu__img-wrapper">
+            <img src="assets/img/breakfast3.jpg" alt="" class="img__menu" />
+          </div>
+          <div class="menu__card-body">
+            <h3 class="menu__title">Sliced Egg Sandwich</h3>
+            <div class="rating">
+              <span class="rating__star">
+                <i class="ri-star-fill"></i>
+              </span>
+              <span class="rating__star">
+                <i class="ri-star-fill"></i>
+              </span>
+              <span class="rating__star">
+                <i class="ri-star-fill"></i>
+              </span>
+              <span class="rating__star">
+                <i class="ri-star-fill"></i>
+              </span>
+              <span class="rating__star">
+                <i class="ri-star-fill"></i>
+              </span>
+            </div>
+            <span class="menu__price">Rp. ....</span>
+          </div>
+        </div>
+        <!-- Lunch -->
+        <div class="menu__card lunch">
+          <div class="menu__img-wrapper">
+            <img src="assets/img/lunch1.jpg" alt="" class="img__menu" />
+          </div>
+          <div class="menu__card-body">
+            <h3 class="menu__title">Stuffed Eggplants with Salad</h3>
+            <div class="rating">
+              <span class="rating__star">
+                <i class="ri-star-fill"></i>
+              </span>
+              <span class="rating__star">
+                <i class="ri-star-fill"></i>
+              </span>
+              <span class="rating__star">
+                <i class="ri-star-fill"></i>
+              </span>
+              <span class="rating__star">
+                <i class="ri-star-fill"></i>
+              </span>
+              <span class="rating__star">
+                <i class="ri-star-half-fill"></i>
+              </span>
+            </div>
+            <span class="menu__price">Rp. ....</span>
+          </div>
+        </div>
+        <div class="menu__card lunch">
+          <div class="menu__img-wrapper">
+            <img src="assets/img/lunch2.jpg" alt="" class="img__menu" />
+          </div>
+          <div class="menu__card-body">
+            <h3 class="menu__title">Cauliflower and Hazelnut Salad</h3>
+            <div class="rating">
+              <span class="rating__star">
+                <i class="ri-star-fill"></i>
+              </span>
+              <span class="rating__star">
+                <i class="ri-star-fill"></i>
+              </span>
+              <span class="rating__star">
+                <i class="ri-star-fill"></i>
+              </span>
+              <span class="rating__star">
+                <i class="ri-star-fill"></i>
+              </span>
+              <span class="rating__star">
+                <i class="ri-star-fill"></i>
+              </span>
+            </div>
+            <span class="menu__price">Rp. ....</span>
+          </div>
+        </div>
+        <div class="menu__card lunch">
+          <div class="menu__img-wrapper">
+            <img src="assets/img/lunch3.jpg" alt="" class="img__menu" />
+          </div>
+          <div class="menu__card-body">
+            <h3 class="menu__title">Pesto Pasta with Salad</h3>
+            <div class="rating">
+              <span class="rating__star">
+                <i class="ri-star-fill"></i>
+              </span>
+              <span class="rating__star">
+                <i class="ri-star-fill"></i>
+              </span>
+              <span class="rating__star">
+                <i class="ri-star-fill"></i>
+              </span>
+              <span class="rating__star">
+                <i class="ri-star-fill"></i>
+              </span>
+              <span class="rating__star">
+                <i class="ri-star-fill"></i>
+              </span>
+            </div>
+            <span class="menu__price">Rp. ....</span>
+          </div>
+        </div>
+        <!-- Dinner -->
+        <div class="menu__card dinner">
+          <div class="menu__img-wrapper">
+            <img src="assets/img/dinner1.jpg" alt="" class="img__menu" />
+          </div>
+          <div class="menu__card-body">
+            <h3 class="menu__title">Spaghetti with Meat Sauce</h3>
+            <div class="rating">
+              <span class="rating__star">
+                <i class="ri-star-fill"></i>
+              </span>
+              <span class="rating__star">
+                <i class="ri-star-fill"></i>
+              </span>
+              <span class="rating__star">
+                <i class="ri-star-fill"></i>
+              </span>
+              <span class="rating__star">
+                <i class="ri-star-fill"></i>
+              </span>
+              <span class="rating__star">
+                <i class="ri-star-half-fill"></i>
+              </span>
+            </div>
+            <span class="menu__price">Rp. ....</span>
+          </div>
+        </div>
+        <div class="menu__card dinner">
+          <div class="menu__img-wrapper">
+            <img src="assets/img/dinner2.jpg" alt="" class="img__menu" />
+          </div>
+          <div class="menu__card-body">
+            <h3 class="menu__title">Salmon and Zucchini</h3>
+            <div class="rating">
+              <span class="rating__star">
+                <i class="ri-star-fill"></i>
+              </span>
+              <span class="rating__star">
+                <i class="ri-star-fill"></i>
+              </span>
+              <span class="rating__star">
+                <i class="ri-star-fill"></i>
+              </span>
+              <span class="rating__star">
+                <i class="ri-star-fill"></i>
+              </span>
+              <span class="rating__star">
+                <i class="ri-star-fill"></i>
+              </span>
+            </div>
+            <span class="menu__price">Rp. ....</span>
+          </div>
+        </div>
+        <div class="menu__card dinner">
+          <div class="menu__img-wrapper">
+            <img src="assets/img/dinner3.jpg" alt="" class="img__menu" />
+          </div>
+          <div class="menu__card-body">
+            <h3 class="menu__title">Grilled Meat with Vegetables</h3>
+            <div class="rating">
+              <span class="rating__star">
+                <i class="ri-star-fill"></i>
+              </span>
+              <span class="rating__star">
+                <i class="ri-star-fill"></i>
+              </span>
+              <span class="rating__star">
+                <i class="ri-star-fill"></i>
+              </span>
+              <span class="rating__star">
+                <i class="ri-star-fill"></i>
+              </span>
+              <span class="rating__star">
+                <i class="ri-star-fill"></i>
+              </span>
+            </div>
+            <span class="menu__price">Rp. ....</span>
+          </div>
+        </div>
+        <!-- Dessert -->
+        <div class="menu__card dessert">
+          <div class="menu__img-wrapper">
+            <img src="assets/img/dessert1.jpg" alt="" class="img__menu" />
+          </div>
+          <div class="menu__card-body">
+            <h3 class="menu__title">Oreo Ice Cream</h3>
+            <div class="rating">
+              <span class="rating__star">
+                <i class="ri-star-fill"></i>
+              </span>
+              <span class="rating__star">
+                <i class="ri-star-fill"></i>
+              </span>
+              <span class="rating__star">
+                <i class="ri-star-fill"></i>
+              </span>
+              <span class="rating__star">
+                <i class="ri-star-fill"></i>
+              </span>
+              <span class="rating__star">
+                <i class="ri-star-half-fill"></i>
+              </span>
+            </div>
+            <span class="menu__price">Rp. ....</span>
+          </div>
+        </div>
+        <div class="menu__card dessert">
+          <div class="menu__img-wrapper">
+            <img src="assets/img/dessert2.jpg" alt="" class="img__menu" />
+          </div>
+          <div class="menu__card-body">
+            <h3 class="menu__title">Raspeberry Cake</h3>
+            <div class="rating">
+              <span class="rating__star">
+                <i class="ri-star-fill"></i>
+              </span>
+              <span class="rating__star">
+                <i class="ri-star-fill"></i>
+              </span>
+              <span class="rating__star">
+                <i class="ri-star-fill"></i>
+              </span>
+              <span class="rating__star">
+                <i class="ri-star-fill"></i>
+              </span>
+              <span class="rating__star">
+                <i class="ri-star-fill"></i>
+              </span>
+            </div>
+            <span class="menu__price">Rp. ....</span>
+          </div>
+        </div>
+        <div class="menu__card dessert">
+          <div class="menu__img-wrapper">
+            <img src="assets/img/dessert3.jpg" alt="" class="img__menu" />
+          </div>
+          <div class="menu__card-body">
+            <h3 class="menu__title">Chocolate Cake</h3>
+            <div class="rating">
+              <span class="rating__star">
+                <i class="ri-star-fill"></i>
+              </span>
+              <span class="rating__star">
+                <i class="ri-star-fill"></i>
+              </span>
+              <span class="rating__star">
+                <i class="ri-star-fill"></i>
+              </span>
+              <span class="rating__star">
+                <i class="ri-star-fill"></i>
+              </span>
+              <span class="rating__star">
+                <i class="ri-star-fill"></i>
+              </span>
+            </div>
+            <span class="menu__price">Rp. ....</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Review -->
+    <section id="review" class="section review">
+      <div class="section__header">
+        <span class="section__subtitle">Review</span>
+        <h2 class="section__title">What Are They Saying?</h2>
       </div>
     </section>
 
