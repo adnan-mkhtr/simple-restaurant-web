@@ -1,7 +1,16 @@
 let navbar = document.getElementById("nav-menu"),
-navToggle = document.getElementById("nav-toggle");
+navToggle = document.getElementById("nav-toggle"),
+navLink = document.querySelectorAll(".nav__link");
 navToggle.addEventListener("click", () =>{
     navbar.classList.toggle("active");
+})
+
+navLink.forEach((link) => {
+    link.addEventListener("click", () => {
+        if (navbar.classList.contains("active")){
+            navbar.classList.remove("active")
+        }
+    })
 })
 
 // document.querySelector("#nav-toggle").onclick = () =>{
