@@ -4,6 +4,6 @@ A simple website restaurant with simple animation scroll and filtering menu use 
 
 ## Built with
 
--HTML
--CSS
--JavaScript
+- HTML
+- CSS
+- JavaScript
